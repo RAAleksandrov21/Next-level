@@ -1,0 +1,9 @@
+﻿  function.cpp
+C:\Users\pc\source\repos\Next-level\El_school\El_school\function.cpp(9,26): warning C4129: ' ': unrecognized character escape sequence
+C:\Users\pc\source\repos\Next-level\El_school\El_school\function.cpp(10,26): warning C4129: ' ': unrecognized character escape sequence
+C:\Users\pc\source\repos\Next-level\El_school\El_school\function.cpp(10,26): warning C4129: '|': unrecognized character escape sequence
+C:\Users\pc\source\repos\Next-level\El_school\El_school\function.cpp(10,26): warning C4129: '/': unrecognized character escape sequence
+C:\Users\pc\source\repos\Next-level\El_school\El_school\function.cpp(11,26): warning C4129: ' ': unrecognized character escape sequence
+C:\Users\pc\source\repos\Next-level\El_school\El_school\function.cpp(12,26): warning C4129: '_': unrecognized character escape sequence
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\pc\source\repos\Next-level\El_school\x64\Debug\El_school.exe : fatal error LNK1120: 1 unresolved externals
