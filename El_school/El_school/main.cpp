@@ -383,5 +383,247 @@ int main() {
         cout << "You pass seventh grade! ";
     }
     counter = 0;
+    /////////8klas
+    map<string, string> bel8klas = {//Creates a string with the answers and the questions.    
+        {"It was (blank) serious accident that he was kept in the hospital for a month:' 'A: such a' 'B: so' 'C: such' or 'D: so a'", "A"},
+        {"This small dictionary (blank) 50.000 words.' 'A: makes' 'B: has' 'C: consists' or 'D: uses'", "B"},
+        {"Which word is spelled incorrectly?' 'A: Literally' 'B: Mischievus' or 'C: Nauseous' ", "B"},
+        {"\"Do not PICK the flowers\" The word in all caps has similar meaning with:' 'A: Take' 'B: Throw' 'C: Bring' or 'D: Break'", "A"},
+        {"what is the comparative verb of heavy?' 'A: heavier' 'B: more heavier' 'C: more haevy' or 'D: heavy'", "A"},
+    };
+    srand(time(0));                 //rng
+    int randomIndexbel8 = rand() % 4;   // rng is from 0 to 4
+    auto bel8 = next(bel8klas.begin(), randomIndexbel8); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    cout << bel8->first << endl;
+    getline(cin, answer);
+    if (answer == bel8->second) {
+        counter++;
+    }
+
+
+    map<string, string> mat8klas = {//Creates a string with the answers and the questions.    
+     {"4x – 10 = 18", "7"},
+     {"4x>=68", "17"},
+     {"Which ratio is equivalent to the following? 3 : 5' 'A = 6 : 18' 'B = 9 : 15' 'C = 12 : 15' or 'D = 15 : 20", "B"},
+     {"3x + 7 = 25", "6"},
+     {"3y−2=13","5"}
+    };
+    srand(time(0));                 //rng
+    int randomIndexmat8 = rand() % 5;   // rng is from 0 to 4
+    auto mat8 = next(mat8klas.begin(), randomIndexmat8); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    cout << mat8->first << endl;
+    getline(cin, answer);
+    if (answer == mat8->second) {
+        counter++;
+    }
+
+    map<string, string> rzn8klas = {//Creates a string with the answers and the questions.    
+   {"What is the chemical formula for table salt?", "NaCl"},
+   {"What is the atomic number of carbon?", "6"},
+   {"Who was the first President of the United States?", "George Washington"},
+   {"Who wrote the Declaration of Independence?", "Thomas Jefferson"},
+   {"What is the process by which plants make their own food using sunlight, carbon dioxide, and water?", "Photosynthesis "},
+   {"What is the largest organ in the human body?", "The skin"},
+   {"What is the currency of China ? ", "Yuan"},
+   {"Who invented the telephone?", "Alexander Graham Bell"},
+   {"Who discovered gravity?", "Sir Isaac Newton"},
+   {"What is the longest river in the world?", "Nile River"},
+    };
+    srand(time(0));                 //rng
+    int randomIndexrzn8 = rand() % 4;   // rng is from 0 to 4
+    auto rzn8 = next(rzn8klas.begin(), randomIndexrzn8); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    cout << rzn8->first << endl;
+    getline(cin, answer);
+    if (answer == rzn8->second) {
+        counter++;
+    }
+    if (counter > 2) {
+        cout << "You pass eighth grade! ";
+    }
+    counter = 0;
+    /////////9klas
+    map<string, string> bel9klas = {//Creates a string with the answers and the questions.    
+        {"Identify the subject in the sentence: \"The cat chased the mouse.\"", "The cat"},
+        {"Identify the verb in the sentence: \"The cat chased the mouse.\"", "chased"},
+        {"Identify the point of view used in the sentence: \"I went to the store and bought some groceries.\"", "first-person"},
+        {"What is the past participle of the verb \"swim\"", "swum"},
+        {"Identify the past participle in the sentence: \"The cake was baked by Sarah.\"", "baked"},
+    };
+    srand(time(0));                 //rng
+    int randomIndexbel9 = rand() % 4;   // rng is from 0 to 4
+    auto bel9 = next(bel9klas.begin(), randomIndexbel9); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    cout << bel9->first << endl;
+    getline(cin, answer);
+    if (answer == bel9->second) {
+        counter++;
+    }
+
+
+    map<string, string> mat9klas = {//Creates a string with the answers and the questions.    
+     {"4x2 − 9 = 0", "x = -3/2 or x = 3/2"},
+     {"Find the square root of 144.", "12"},
+     {"2√x + 3 = 7", "4"},
+     {"3x2 − 5x + 2 = 0", "1000"},
+     {"x/2 + 4 = 9","x = 1 and x = 2/3"}
+    };
+    srand(time(0));                 //rng
+    int randomIndexmat9 = rand() % 5;   // rng is from 0 to 4
+    auto mat9 = next(mat9klas.begin(), randomIndexmat4); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    cout << mat9->first << endl;
+    getline(cin, answer);
+    if (answer == mat9->second) {
+        counter++;
+    }
+
+    map<string, string> rzn9klas = {//Creates a string with the answers and the questions.    
+   {"Who was the leader of the Soviet Union during World War II?", "Joseph Stalin"},
+   {"What event marked the beginning of World War I?", "The assassination of Archduke Franz Ferdinand"},
+   {"Who was the first female Prime Minister of the United Kingdom?", "Margaret Thatcher"},
+   {"What is Ohm's law?", "V=IR"},
+   {"What is the role of enzymes in biological reactions?", "They speed up chemical reactions in living organisms"},
+   {"What is the role of the nervous system in the human body?", "Transmitting signals between different parts of the body"},
+   {"What is the function of chlorophyll in plants?", "To capture sunlight during photosynthesis"},
+   {"What is the capital of Canada?", "Ottawa"},
+   {"What is the chemical symbol for sodium?", "Na"},
+   {"In which year did World War II end?", "1945"},
+   {"In which year did the Titanic sink?", "1912"},
+   {"Who composed the famous opera \"The Barber of Seville\"?", "Gioachino Rossini"},
+    };
+    srand(time(0));                 //rng
+    int randomIndexrzn9 = rand() % 4;   // rng is from 0 to 4
+    auto rzn9 = next(rzn9klas.begin(), randomIndexrzn4); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    cout << rzn9->first << endl;
+    getline(cin, answer);
+    if (answer == rzn9->second) {
+        counter++;
+    }
+    if (counter > 2) {
+        cout << "You pass ninth grade! ";
+    }
+    counter = 0;
+    /////////10klas
+    map<string, string> bel10klas = {//Creates a string with the answers and the questions.    
+        {"Identify the type of figurative language used in the sentence: \"The stars danced in the night sky.\"", "Personification"},
+        {"What is the purpose of using dialogue in a story?", "Dialogue helps to develop characters and advance the plot."},
+        {"Define the term \"foreshadowing\" in literature.", "Foreshadowing is a literary device used to hint at future events in a story."},
+        {"Identify the type of sentence: \"She enjoys playing the piano.\"", "declarative sentence"},
+        {"Identify the literary device used in the phrase: \"The darkness enveloped him like a heavy blanket.\"", "simile"},
+        {"Define the term \"thesis statement\" in academic writing", "concise statement that summarizes the main point or argument of an essay"},
+        {"What is the purpose of a persuasive essay?", "to convince the reader of a particular viewpoint or argument"},
+    };
+    srand(time(0));                 //rng
+    int randomIndexbel10 = rand() % 4;   // rng is from 0 to 4
+    auto bel10 = next(bel10klas.begin(), randomIndexbel9); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    cout << bel10->first << endl;
+    getline(cin, answer);
+    if (answer == bel10->second) {
+        counter++;
+    }
+
+
+    map<string, string> mat10klas = {//Creates a string with the answers and the questions.    
+     {"2x + y = 5   x − 3y = −2", "x = 1 and y = 3"},
+     {"Calculate the area of a circle with radius 6 units.", "36π"},
+     {"Find the slope of the line passing through the points(-3,2) and (4, -5)", "-1"},
+     {"log2 (x + 5) = 3.", "3"},
+     {"Calculate the length of the hypotenuse of a right triangle with legs measuring 5 units and 12 units.","169"},
+    };
+    srand(time(0));                 //rng
+    int randomIndexmat10 = rand() % 5;   // rng is from 0 to 4
+    auto mat10 = next(mat10klas.begin(), randomIndexmat4); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    cout << mat10->first << endl;
+    getline(cin, answer);
+    if (answer == mat10->second) {
+        counter++;
+    }
+
+    map<string, string> rzn10klas = {//Creates a string with the answers and the questions.    
+   {"What was the main cause of the Great Depression in the 1930s?", "What was the main cause of the Great Depression in the 1930s?"},
+   {"What was the purpose of the Marshall Plan?", "Tto provide economic aid to help rebuild Western European economies"},
+   {"What was the main goal of the Civil Rights Movement in the United States?", "to end racial segregation and discrimination against African Americans"},
+   {"Who was the leader of the Indian independence movement against British rule?", "Mahatma Gandhi"},
+   {"What was the main cause of the French Revolution?", "social inequality and economic hardship"},
+   {"What is the function of the mitochondria in a cell?", "To generate energy"},
+   {"What is the function of the circulatory system in the human body?", "transports oxygen, nutrients, hormones, and waste products"},
+   {"What is the function of the ribosomes in a cell?", "site of protein synthesis"},
+   {"Describe the structure and function of the cell membrane.", "acts as a semi - permeable barrier"},
+   {"Define the term \"stoichiometry\" in chemistry.", "the branch of chemistry that deals with the quantitative relationships between reactants and products in chemical reactions."},
+   {"Who is the author of the book \"The Catcher in the Rye\"?", "J.D. Salinger"},
+   {"What is the largest moon in the Solar System?", "Ganymede"},
+    };
+    srand(time(0));                 //rng
+    int randomIndexrzn10 = rand() % 4;   // rng is from 0 to 4
+    auto rzn10 = next(rzn10klas.begin(), randomIndexrzn4); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    cout << rzn10->first << endl;
+    getline(cin, answer);
+    if (answer == rzn10->second) {
+        counter++;
+    }
+    if (counter > 2) {
+        cout << "You pass tenth grade! ";
+    }
+    counter = 0;
+    /////////11klas
+    map<string, string> bel11klas = {//Creates a string with the answers and the questions.    
+        {"Identify the literary device used in the following sentence: \"The world is a stage.\"", "Metaphor"},
+        {"Who is the author of the novel \"Pride and Prejudice\"?", "Jane Austen"},
+        {"What is the main theme of the novel \"1984\" by George Orwell", "Totalitarianism, surveillance, and the loss of individual freedom."},
+        {"What literary period is characterized by a focus on individualism, nature, and the supernatural?", "Romanticism"},
+        {"Who wrote the poem \"The Waste Land\"?", "T.S. Eliot"},
+        {"What is the main theme of the play \"Death of a Salesman\" by Arthur Miller?", "The American Dream"},
+        {"Who wrote the novel \"The Great Gatsby\"?", "F. Scott Fitzgerald"},
+    };
+    srand(time(0));                 //rng
+    int randomIndexbel11 = rand() % 4;   // rng is from 0 to 4
+    auto bel11 = next(bel11klas.begin(), randomIndexbel9); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    cout << bel11->first << endl;
+    getline(cin, answer);
+    if (answer == bel11->second) {
+        counter++;
+    }
+
+
+    map<string, string> mat11klas = {//Creates a string with the answers and the questions.    
+     {"x2 − 6x + 9 = 0", "x = 3 repeated root"},
+     {"f(x)=3x2 + 2x + 5", "f'(x) = 6x + 2."},
+     {"Find the equation of the tangent line to the curve y=x3 - 2x + 5 at the (2, 9)", "y - 9 = 10(x-2)"},
+     {"log2(8) − log2(4)", "1"},
+     {"Find the sum of the series: 1 + 1/2 + 1/4 + 1/8 + ... (infinite geometric series)","2"},
+    };
+    srand(time(0));                 //rng
+    int randomIndexmat11 = rand() % 5;   // rng is from 0 to 4
+    auto mat11 = next(mat11klas.begin(), randomIndexmat4); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    cout << mat11->first << endl;
+    getline(cin, answer);
+    if (answer == mat11->second) {
+        counter++;
+    }
+
+    map<string, string> rzn11klas = {//Creates a string with the answers and the questions.    
+   {"Who was the leader of the Soviet Union during the Cuban Missile Crisis?", "Nikita Khrushchev"},
+   {"What was the purpose of the Marshall Plan?", "Tto provide economic aid to help rebuild Western European economies"},
+   {"What was the main goal of the Civil Rights Movement in the United States?", "to end racial segregation and discrimination against African Americans"},
+   {"What were the main causes of World War I?", "militarism, alliances, imperialism, and nationalism"},
+   {"What was the significance of the Berlin Wall?", "a symbol of the Cold War division between East and West Germany"},
+   {"What is the function of the mitochondria in a cell?", "To generate energy"},
+   {"What is the basic unit of heredity?", "Gene"},
+   {"What is the name of the process by which organisms break down food molecules to release energy?", "Cellular respiration"},
+   {"What is the scientific term for the study of heredity?", "Genetics"},
+   {"What is the unit of measurement for the amount of a substance in chemistry?", "mol"},
+   {"What is the name of the bond formed between two atoms by the sharing of electrons?", "Covalent bond."},
+   {"What is the term for the minimum amount of energy required to start a chemical reaction?", "Activation energy"},
+    };
+    srand(time(0));                 //rng
+    int randomIndexrzn11 = rand() % 4;   // rng is from 0 to 4
+    auto rzn11 = next(rzn11klas.begin(), randomIndexrzn4); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    cout << rzn11->first << endl;
+    getline(cin, answer);
+    if (answer == rzn11->second) {
+        counter++;
+    }
+    if (counter > 2) {
+        cout << "You pass eleventh grade! ";
+    }
+    counter = 0;
 }
 
