@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <map>
 #include <string>
 #include <cstdlib>
@@ -133,7 +133,7 @@ int main() {
      {"1km=?m","1000"}
     };
     srand(time(0));                 //rng
-    int randomIndexmat3 = rand() % 4;   // rng is from 0 to 4
+    int randomIndexmat3 = rand() % 5;   // rng is from 0 to 4
     auto mat3 = next(mat3klas.begin(), randomIndexmat3); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
     cout << mat3->first << endl;
     getline(cin, answer);
@@ -158,4 +158,230 @@ int main() {
     if (counter > 2) {
         cout << "You pass third grade! ";
     }
+    counter = 0;
+    /////////4klas
+    map<string, string> bel4klas = {//Creates a string with the answers and the questions.    
+        {"Choose the word that comes first in alphabetical order: 'A: planet' 'B: plain' or 'C: pity'", "B"},
+        {"I'm Sorry. You (blank) park here: 'A: must' 'B: have to' or 'C: can't'", "C"},
+        {"What is the past simple form of the verb come?", "came"},
+        {"What is the past simple form of the verb cut?", "cut"},
+    };
+    srand(time(0));                 //rng
+    int randomIndexbel4 = rand() % 4;   // rng is from 0 to 4
+    auto bel4 = next(bel4klas.begin(), randomIndexbel4); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    cout << bel4->first << endl;
+    getline(cin, answer);
+    if (answer == bel4->second) {
+        counter++;
+    }
+
+
+    map<string, string> mat4klas = {//Creates a string with the answers and the questions.    
+     {"The number seven hundred and nine million twelve thousand and eight is written in figures like this: 'A: 709 120 008' 'B: 709 012 800' 'C: 709 012 008'", "C"},
+     {"36648:12=? 'A: 354' 'B: 3054' 'C: 30054'", "B"},
+     {"Which three numbers are less than 30,020? 'A: 30 019, 30 020, 30 021' 'B: 30 001, 30 010, 30 019' 'C: 30 001, 30 010, 31 000'", "B"},
+     {"?:4=7612", "30448"},
+     {"75km=?m","75000"}
+    };
+    srand(time(0));                 //rng
+    int randomIndexmat4 = rand() % 5;   // rng is from 0 to 4
+    auto mat4 = next(mat4klas.begin(), randomIndexmat4); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    cout << mat4->first << endl;
+    getline(cin, answer);
+    if (answer == mat4->second) {
+        counter++;
+    }
+
+    map<string, string> rzn4klas = {//Creates a string with the answers and the questions.    
+   {"The capital of Bulgaria is:", "Sofia"},
+   {"How many continents are there?", "7"},
+   {"What is the opposite of north?", "south"},
+   {"How many sides does a hexagon have?", "6"},
+    };
+    srand(time(0));                 //rng
+    int randomIndexrzn4 = rand() % 4;   // rng is from 0 to 4
+    auto rzn4 = next(rzn4klas.begin(), randomIndexrzn4); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    cout << rzn4->first << endl;
+    getline(cin, answer);
+    if (answer == rzn4->second) {
+        counter++;
+    }
+    if (counter > 2) {
+        cout << "You pass fourth grade! ";
+    }
+    counter = 0;
+    /////////5klas
+    map<string, string> bel5klas = {//Creates a string with the answers and the questions.    
+        {"There (blank) 25 students in class: 'A: is' 'B: are' or 'C: will'", "B"},
+        {"What is the opposite of sad? 'A: depressed' 'B: discouraged' or 'C: happy'", "C"},
+        {"Which of these verbs are not in the past simple form? 'A: taught' 'B: sell' or 'C: ran'", "B"},
+        {"What is the past simple form of the verb lead?", "led"},
+        {"What is the past simple form of the verb stand?", "stood"},
+    };
+    srand(time(0));                 //rng
+    int randomIndexbel5 = rand() % 4;   // rng is from 0 to 4
+    auto bel5 = next(bel5klas.begin(), randomIndexbel5); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    cout << bel5->first << endl;
+    getline(cin, answer);
+    if (answer == bel5->second) {
+        counter++;
+    }
+
+
+    map<string, string> mat5klas = {//Creates a string with the answers and the questions.    
+     {"How many of the numbers 1; 3; 8; 11; 13; 15; 17; 19; 21 are prime numbers: 'A: 6' 'B: 5' 'C: 7'", "A"},
+     {"The number which can be divided by 2 is: 'A: 412321' 'B: 300505' 'C: 107312'", "C"},
+     {"The number which can be divided by 3 is: 'A: 3301' 'B: 7701' 'C: 1204'", "B"},
+     {"How many square centimeters is 0.02 m2 equal to?", "200"},
+     {"A recipe for making cookies calls for 10 cups of flour. If you want to make half of the recipe, how many cups of flour do you need?","5"}
+    };
+    srand(time(0));                 //rng
+    int randomIndexmat5 = rand() % 5;   // rng is from 0 to 4
+    auto mat5 = next(mat5klas.begin(), randomIndexmat5); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    cout << mat5->first << endl;
+    getline(cin, answer);
+    if (answer == mat5->second) {
+        counter++;
+    }
+
+    map<string, string> rzn5klas = {//Creates a string with the answers and the questions.    
+   {"What is the chemical symbol for water?", "H20"},
+   {"Who painted the Mona Lisa?", "Leonardo da Vinci"},
+   {"What is the opposite of east?", "west"},
+   {"What is the tallest mountain in the world??", "Everest"},
+   {"Who is the current President of the United States?", "Joe Biden"},
+   {"What is the main ingredient in guacamole?", "avocado"},
+   {"What is the largest mammal in the world?", "blue whale"},
+   {"What is the currency of Japan?", "yen"},
+   {"What is the capital of France?", "Paris"},
+   {"What is the chemical symbol for gold?", "Au"},
+    };
+    srand(time(0));                 //rng
+    int randomIndexrzn5 = rand() % 4;   // rng is from 0 to 4
+    auto rzn5 = next(rzn5klas.begin(), randomIndexrzn5); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    cout << rzn5->first << endl;
+    getline(cin, answer);
+    if (answer == rzn5->second) {
+        counter++;
+    }
+    if (counter > 2) {
+        cout << "You pass fifth grade! ";
+    }
+    counter = 0;
+    /////////6klas
+    map<string, string> bel6klas = {//Creates a string with the answers and the questions.    
+        {"Policemen are sometimes on (blank) at night: 'A: force' 'B: patrol' or 'C: cover'", "B"},
+        {"What is the antonym of rigorous? 'A: difficult' 'B: effortless' or 'C: tough'", "B"},
+        {"What is the plural form of aircraft?", "aircraft"},
+        {"What is the past simple form of the verb understand?", "understood"},
+        {"What is the past simple form of the verb teach?", "taught"},
+    };
+    srand(time(0));                 //rng
+    int randomIndexbel6 = rand() % 4;   // rng is from 0 to 4
+    auto bel6 = next(bel6klas.begin(), randomIndexbel6); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    cout << bel6->first << endl;
+    getline(cin, answer);
+    if (answer == bel6->second) {
+        counter++;
+    }
+
+
+    map<string, string> mat6klas = {//Creates a string with the answers and the questions.    
+     {"The value of the expression –a.3–3 if a=–4 is: 'A: 9' 'B: 4' 'C: -15'", "A"},
+     {"The number which can be divided by 12 is: 'A: 234' 'B: 216' 'C: 266'", "B"},
+     {"The number which can be divided by 29 is: 'A: 406' 'B: 1395' 'C: 910'", "A"},
+     {"How many square centimeters is 0.0002 dm2 equal to?", "0.02"},
+     {"If there are 500 pieces of candy and 10 students in a class, how many pieces of candy does each student get?","50"}
+    };
+    srand(time(0));                 //rng
+    int randomIndexmat6 = rand() % 5;   // rng is from 0 to 4
+    auto mat6 = next(mat6klas.begin(), randomIndexmat6); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    cout << mat6->first << endl;
+    getline(cin, answer);
+    if (answer == mat6->second) {
+        counter++;
+    }
+
+    map<string, string> rzn6klas = {//Creates a string with the answers and the questions.    
+   {"Who was the first person to step on the moon?", "Neil Armstrong"},
+   {"What is the currency of the United Kingdom?", "pound"},
+   {"Which planet is known as the Red Planet?", "Mars"},
+   {"What is the largest ocean on Earth?", "Pacific Ocean"},
+   {"Who painted the famous artwork Starry Night?", "Vincent van Gogh"},
+   {"Who is known as the father of modern physics?", "Albert Einstein"},
+   {"What is the chemical symbol for iron?", "Fe"},
+   {"What is the tallest building in the world?", "Burj Khalifa"},
+   {"Who wrote the play Hamlet?", "William Shakespeare"},
+   {"Who is credited with inventing the telephone?", "Alexander Graham Bell"},
+    };
+    srand(time(0));                 //rng
+    int randomIndexrzn6 = rand() % 4;   // rng is from 0 to 4
+    auto rzn6 = next(rzn6klas.begin(), randomIndexrzn6); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    cout << rzn6->first << endl;
+    getline(cin, answer);
+    if (answer == rzn6->second) {
+        counter++;
+    }
+    if (counter > 2) {
+        cout << "You pass sixth grade! ";
+    }
+    counter = 0;
+    /////////7klas
+    map<string, string> bel7klas = {//Creates a string with the answers and the questions.    
+        {"Is this a good time to talk? Sorry, no. I (blank) dinner: 'A: cook' 'B: am cooking' or 'C: cooking'", "B"},
+        {"Which of these antonyms of the word comparable are spelt right? 'A: analogous' 'B: corespondent' or 'C: paralel'", "A"},
+        {"What is the plural form of leaf?", "leaves"},
+        {"What is the past simple form of the verb let?", "let"},
+        {"What is the past simple form of the verb bring?", "brought"},
+    };
+    srand(time(0));                 //rng
+    int randomIndexbel7 = rand() % 4;   // rng is from 0 to 4
+    auto bel7 = next(bel7klas.begin(), randomIndexbel7); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    cout << bel7->first << endl;
+    getline(cin, answer);
+    if (answer == bel7->second) {
+        counter++;
+    }
+
+
+    map<string, string> mat7klas = {//Creates a string with the answers and the questions.    
+     {"Simultaneously from A to B and from B to A, two trucks set off against each other. The speed of one is 60 km/h,and the other is 70 km/h.If the distance between A and B is not less than 260 km, the two trucks may meet after: 'A:less than 2h' 'B: more than 8h' 'C: more than 3h'", "C"},
+     {"The lengths of the sides of a triangle are whole numbers. If two of the sides of a triangle are 5 cm and 1 cm, then the third side is (blank) cm:", "4"},
+     {"Given a triangle ABC such that C=90 degrees. Point P is arbitrary on side AB. It is true that: 'A: ВС < АС < АВ' 'B: АС < ВС < АВ' 'C: ВС < АВ < АС'", "B"},
+     {"What are two fifths of 50?", "20"},
+     {"3x-5=16,x=?","7"}
+    };
+    srand(time(0));                 //rng
+    int randomIndexmat7 = rand() % 5;   // rng is from 0 to 4
+    auto mat7 = next(mat7klas.begin(), randomIndexmat7); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    cout << mat7->first << endl;
+    getline(cin, answer);
+    if (answer == mat7->second) {
+        counter++;
+    }
+
+    map<string, string> rzn7klas = {//Creates a string with the answers and the questions.    
+   {"What is the smallest unit of life?", "The cell"},
+   {"What is the process by which organisms produce offspring similar to themselves?", "Reproduction"},
+   {"What is the process by which plants make their own food?", "Photosynthesis"},
+   {"Who wrote the Declaration of Independence", "Thomas Jefferson"},
+   {"Who was the famous Egyptian queen known for her beauty and influence?", "Cleopatra"},
+   {"What is the unit of electric current?", "Ampere"},
+   {"What is the main source of energy for the Earth?", "The Sun"},
+   {"In what year did Christopher Columbus discover America?", "1492"},
+   {"Who wrote Romeo and Juliet?", "William Shakespeare"},
+   {"What goes up but never down?", "staircase"};
+    srand(time(0));                 //rng
+    int randomIndexrzn7 = rand() % 4;   // rng is from 0 to 4
+    auto rzn7 = next(rzn7klas.begin(), randomIndexrzn7); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    cout << rzn7->first << endl;
+    getline(cin, answer);
+    if (answer == rzn7->second) {
+        counter++;
+    }
+    if (counter > 2) {
+        cout << "You pass seventh grade! ";
+    }
+    counter = 0;
 }
+

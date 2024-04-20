@@ -1,9 +1,11 @@
-﻿  function.cpp
-C:\Users\pc\source\repos\Next-level\El_school\El_school\function.cpp(9,26): warning C4129: ' ': unrecognized character escape sequence
-C:\Users\pc\source\repos\Next-level\El_school\El_school\function.cpp(10,26): warning C4129: ' ': unrecognized character escape sequence
-C:\Users\pc\source\repos\Next-level\El_school\El_school\function.cpp(10,26): warning C4129: '|': unrecognized character escape sequence
-C:\Users\pc\source\repos\Next-level\El_school\El_school\function.cpp(10,26): warning C4129: '/': unrecognized character escape sequence
-C:\Users\pc\source\repos\Next-level\El_school\El_school\function.cpp(11,26): warning C4129: ' ': unrecognized character escape sequence
-C:\Users\pc\source\repos\Next-level\El_school\El_school\function.cpp(12,26): warning C4129: '_': unrecognized character escape sequence
-MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
-C:\Users\pc\source\repos\Next-level\El_school\x64\Debug\El_school.exe : fatal error LNK1120: 1 unresolved externals
+﻿  main.cpp
+C:\Users\Kal\Documents\Next-level\El_school\El_school\main.cpp(15,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Kal\Documents\Next-level\El_school\El_school\main.cpp(33,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Kal\Documents\Next-level\El_school\El_school\main.cpp(48,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Kal\Documents\Next-level\El_school\El_school\main.cpp(66,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Kal\Documents\Next-level\El_school\El_school\main.cpp(85,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Kal\Documents\Next-level\El_school\El_school\main.cpp(100,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Kal\Documents\Next-level\El_school\El_school\main.cpp(120,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Kal\Documents\Next-level\El_school\El_school\main.cpp(137,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Kal\Documents\Next-level\El_school\El_school\main.cpp(152,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  El_school.vcxproj -> C:\Users\Kal\Documents\Next-level\El_school\x64\Debug\El_school.exe
