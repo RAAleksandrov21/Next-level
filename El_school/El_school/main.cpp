@@ -4,7 +4,7 @@
 #include <cstdlib>
 using namespace std;
 int main() {
-    int counter = 0;
+    int counter;
     /////////1klas
     map<string, string> bel1klas = {//Creates a string with the answers and the questions.    
         {"It could be different colours like brown, white, gray, etc, it eats carrots, it is easily scared and jumps a lot what is it?", "rabbit"},
@@ -370,7 +370,7 @@ int main() {
    {"What is the main source of energy for the Earth?", "The Sun"},
    {"In what year did Christopher Columbus discover America?", "1492"},
    {"Who wrote Romeo and Juliet?", "William Shakespeare"},
-   {"What goes up but never down?", "staircase"};
+   {"What goes up but never down?", "staircase"} };
     srand(time(0));                 //rng
     int randomIndexrzn7 = rand() % 4;   // rng is from 0 to 4
     auto rzn7 = next(rzn7klas.begin(), randomIndexrzn7); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
@@ -468,7 +468,7 @@ int main() {
     };
     srand(time(0));                 //rng
     int randomIndexmat9 = rand() % 5;   // rng is from 0 to 4
-    auto mat9 = next(mat9klas.begin(), randomIndexmat4); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    auto mat9 = next(mat9klas.begin(), randomIndexmat9); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
     cout << mat9->first << endl;
     getline(cin, answer);
     if (answer == mat9->second) {
@@ -491,7 +491,7 @@ int main() {
     };
     srand(time(0));                 //rng
     int randomIndexrzn9 = rand() % 4;   // rng is from 0 to 4
-    auto rzn9 = next(rzn9klas.begin(), randomIndexrzn4); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    auto rzn9 = next(rzn9klas.begin(), randomIndexrzn9); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
     cout << rzn9->first << endl;
     getline(cin, answer);
     if (answer == rzn9->second) {
@@ -513,7 +513,7 @@ int main() {
     };
     srand(time(0));                 //rng
     int randomIndexbel10 = rand() % 4;   // rng is from 0 to 4
-    auto bel10 = next(bel10klas.begin(), randomIndexbel9); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    auto bel10 = next(bel10klas.begin(), randomIndexbel10); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
     cout << bel10->first << endl;
     getline(cin, answer);
     if (answer == bel10->second) {
@@ -530,7 +530,7 @@ int main() {
     };
     srand(time(0));                 //rng
     int randomIndexmat10 = rand() % 5;   // rng is from 0 to 4
-    auto mat10 = next(mat10klas.begin(), randomIndexmat4); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    auto mat10 = next(mat10klas.begin(), randomIndexmat10); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
     cout << mat10->first << endl;
     getline(cin, answer);
     if (answer == mat10->second) {
@@ -553,7 +553,7 @@ int main() {
     };
     srand(time(0));                 //rng
     int randomIndexrzn10 = rand() % 4;   // rng is from 0 to 4
-    auto rzn10 = next(rzn10klas.begin(), randomIndexrzn4); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    auto rzn10 = next(rzn10klas.begin(), randomIndexrzn10); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
     cout << rzn10->first << endl;
     getline(cin, answer);
     if (answer == rzn10->second) {
@@ -575,7 +575,7 @@ int main() {
     };
     srand(time(0));                 //rng
     int randomIndexbel11 = rand() % 4;   // rng is from 0 to 4
-    auto bel11 = next(bel11klas.begin(), randomIndexbel9); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    auto bel11 = next(bel11klas.begin(), randomIndexbel11); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
     cout << bel11->first << endl;
     getline(cin, answer);
     if (answer == bel11->second) {
@@ -592,7 +592,7 @@ int main() {
     };
     srand(time(0));                 //rng
     int randomIndexmat11 = rand() % 5;   // rng is from 0 to 4
-    auto mat11 = next(mat11klas.begin(), randomIndexmat4); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    auto mat11 = next(mat11klas.begin(), randomIndexmat11); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
     cout << mat11->first << endl;
     getline(cin, answer);
     if (answer == mat11->second) {
@@ -615,7 +615,7 @@ int main() {
     };
     srand(time(0));                 //rng
     int randomIndexrzn11 = rand() % 4;   // rng is from 0 to 4
-    auto rzn11 = next(rzn11klas.begin(), randomIndexrzn4); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
+    auto rzn11 = next(rzn11klas.begin(), randomIndexrzn11); //auto pravi avtomatichen type next;question begin go vrushta v nachaloto;next go advansva s random number
     cout << rzn11->first << endl;
     getline(cin, answer);
     if (answer == rzn11->second) {
