@@ -1,11 +1,12 @@
-<h1>Team Next level</h1>
+<h1>Next level</h1>
 <p align = "center">
-  
+  <img src = "Pictures/Next level.logo.png" alt = "Next level.logo.png" width="500px">
 </p>
 
 <hr>
 
 <br>
+
 
 ## 📝 Table of contents
 
