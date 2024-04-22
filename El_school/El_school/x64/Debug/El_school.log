@@ -1,3 +1,44 @@
 ﻿  main.cpp
-C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(8,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(35,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(53,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(68,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(88,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(107,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(122,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(142,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(159,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(174,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(195,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(212,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(227,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(249,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(266,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(287,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(309,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(326,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(347,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(369,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(386,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(406,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(428,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(443,7): warning C4566: character represented by universal-character-name '\u2212' cannot be represented in the current code page (1251)
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(445,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(466,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(488,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(499,7): warning C4566: character represented by universal-character-name '\u2212' cannot be represented in the current code page (1251)
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(501,7): warning C4566: character represented by universal-character-name '\u221A' cannot be represented in the current code page (1251)
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(502,7): warning C4566: character represented by universal-character-name '\u2212' cannot be represented in the current code page (1251)
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(505,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(528,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(552,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(563,7): warning C4566: character represented by universal-character-name '\u2212' cannot be represented in the current code page (1251)
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(564,62): warning C4566: character represented by universal-character-name '\u03C0' cannot be represented in the current code page (1251)
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(569,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(592,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(616,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(627,7): warning C4566: character represented by universal-character-name '\u2212' cannot be represented in the current code page (1251)
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(630,7): warning C4566: character represented by universal-character-name '\u2212' cannot be represented in the current code page (1251)
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(633,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(656,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\User\Proekt\Next-level\El_school\El_school\main.cpp(666,26): warning C4305: 'initializing': truncation from 'int' to 'bool'
   El_school.vcxproj -> C:\Users\User\Proekt\Next-level\El_school\x64\Debug\El_school.exe

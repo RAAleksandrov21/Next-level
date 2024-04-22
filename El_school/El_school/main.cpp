@@ -2,8 +2,16 @@
 #include <map>
 #include <string>
 #include <cstdlib>
+#include "function.h"
+void greet();
+void menu();
 using namespace std;
 int main() {
+    greet();
+    menu();
+    int number;
+    cin >> number;
+    if(number==1){
     bool testresult1 = 0;
     bool testresult2 = 0;
     bool testresult3 = 0;
@@ -16,7 +24,7 @@ int main() {
     bool testresult10 = 0;
     bool testresult11 = 0;
 
-    int counter;
+    int counter=0;
     /////////1klas
     map<string, string> bel1klas = {//Creates a string with the answers and the questions.    
         {"It could be different colours like brown, white, gray, etc, it eats carrots, it is easily scared and jumps a lot what is it?", "rabbit"},
@@ -703,10 +711,19 @@ int main() {
         cout << "You should go to the 2 grade.";
 
     }
-    else  {
+    else {
         cout << "You should go to the 1 grade.";
 
     }
-
+}
+if (number == 2) {
+    cout << "This is ";
+}
+if (number == 3) {
+    cout << "credit";
+}
+if (number == 4) {
+    
 }
 
+}
