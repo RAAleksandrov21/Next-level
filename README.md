@@ -20,7 +20,7 @@
 ## 💻 Description <a name="description"></a>
 
 <p align = "center">
-  
+  The theme is e-school to help people. To see their knowledge and give real assessment
 </p>
 
 
