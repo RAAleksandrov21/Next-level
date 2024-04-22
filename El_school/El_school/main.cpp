@@ -4,6 +4,18 @@
 #include <cstdlib>
 using namespace std;
 int main() {
+    bool testresult1 = 0;
+    bool testresult2 = 0;
+    bool testresult3 = 0;
+    bool testresult4 = 0;
+    bool testresult5 = 0;
+    bool testresult6 = 0;
+    bool testresult7 = 0;
+    bool testresult8 = 0;
+    bool testresult9 = 0;
+    bool testresult10 = 0;
+    bool testresult11 = 0;
+
     int counter;
     /////////1klas
     map<string, string> bel1klas = {//Creates a string with the answers and the questions.    
@@ -55,6 +67,8 @@ int main() {
     }
     if (counter > 2) {
         cout << "You pass first grade! " << endl;
+        bool testresult1 = 1;
+
     }
     counter = 0;
     /////////2klas
@@ -107,6 +121,8 @@ int main() {
     }
     if (counter > 2) {
         cout << "You pass second grade! ";
+        bool testresult2 = 1;
+
     }
     counter = 0;
     /////////3klas
@@ -157,6 +173,8 @@ int main() {
     }
     if (counter > 2) {
         cout << "You pass third grade! ";
+        bool testresult3 = 1;
+
     }
     counter = 0;
     /////////4klas
@@ -208,6 +226,8 @@ int main() {
     }
     if (counter > 2) {
         cout << "You pass fourth grade! ";
+        bool testresult4 = 1;
+
     }
     counter = 0;
     /////////5klas
@@ -266,6 +286,8 @@ int main() {
     }
     if (counter > 2) {
         cout << "You pass fifth grade! ";
+        bool testresult5 = 1;
+
     }
     counter = 0;
     /////////6klas
@@ -324,6 +346,8 @@ int main() {
     }
     if (counter > 2) {
         cout << "You pass sixth grade! ";
+        bool testresult6 = 1;
+
     }
     counter = 0;
     /////////7klas
@@ -381,6 +405,8 @@ int main() {
     }
     if (counter > 2) {
         cout << "You pass seventh grade! ";
+        bool testresult7 = 1;
+
     }
     counter = 0;
     /////////8klas
@@ -439,6 +465,8 @@ int main() {
     }
     if (counter > 2) {
         cout << "You pass eighth grade! ";
+        bool testresult8 = 1;
+
     }
     counter = 0;
     /////////9klas
@@ -499,6 +527,8 @@ int main() {
     }
     if (counter > 2) {
         cout << "You pass ninth grade! ";
+        bool testresult9 = 1;
+
     }
     counter = 0;
     /////////10klas
@@ -561,6 +591,8 @@ int main() {
     }
     if (counter > 2) {
         cout << "You pass tenth grade! ";
+        bool testresult10 = 1;
+
     }
     counter = 0;
     /////////11klas
@@ -623,7 +655,58 @@ int main() {
     }
     if (counter > 2) {
         cout << "You pass eleventh grade! ";
+        bool testresult1 = 11;
+
     }
-    counter = 0;
+    //bool testresult1 = 1;
+
+    if (testresult11) {
+        cout << "You should go to the 12 grade.";
+    }
+    else if (testresult10) {
+        cout << "You should go to the 11 grade.";
+
+    }
+    else if (testresult9) {
+        cout << "You should go to the 10 grade.";
+
+    }
+    else if (testresult8) {
+        cout << "You should go to the 9 grade.";
+
+    }
+    else if (testresult7) {
+        cout << "You should go to the 8 grade.";
+
+    }
+    else if (testresult6) {
+        cout << "You should go to the 7 grade.";
+
+    }
+    else if (testresult5) {
+        cout << "You should go to the 6 grade.";
+
+    }
+    else if (testresult4) {
+        cout << "You should go to the 5 grade.";
+
+    }
+    else if (testresult3) {
+        cout << "You should go to the 4 grade.";
+
+    }
+    else if (testresult2) {
+        cout << "You should go to the 3 grade.";
+
+    }
+    else if (testresult1) {
+        cout << "You should go to the 2 grade.";
+
+    }
+    else  {
+        cout << "You should go to the 1 grade.";
+
+    }
+
 }
 
