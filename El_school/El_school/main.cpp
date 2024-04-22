@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include <map>
 #include <string>
+#include <iomanip>
 #include <cstdlib>
 #include "function.h"
 void printSlogan();
@@ -12,7 +13,7 @@ int main() {
         menu();
         int number;
         cin >> number;
-        system("CLS");
+       // system("CLS");
         if (number == 1) {
             bool testresult1 = 0;
             bool testresult2 = 0;
@@ -671,62 +672,71 @@ int main() {
             //bool testresult1 = 1;
 
             if (testresult11) {
-                cout << "You should go to the 12 grade.";
+                cout << "You should go to the 12 grade."<<endl;
             }
             else if (testresult10) {
-                cout << "You should go to the 11 grade.";
+                cout << "You should go to the 11 grade." << endl;
 
             }
             else if (testresult9) {
-                cout << "You should go to the 10 grade.";
+                cout << "You should go to the 10 grade." << endl;
 
             }
             else if (testresult8) {
-                cout << "You should go to the 9 grade.";
+                cout << "You should go to the 9 grade." << endl;
 
             }
             else if (testresult7) {
-                cout << "You should go to the 8 grade.";
+                cout << "You should go to the 8 grade." << endl;
 
             }
             else if (testresult6) {
-                cout << "You should go to the 7 grade.";
+                cout << "You should go to the 7 grade." << endl;
 
             }
             else if (testresult5) {
-                cout << "You should go to the 6 grade.";
+                cout << "You should go to the 6 grade." << endl;
 
             }
             else if (testresult4) {
-                cout << "You should go to the 5 grade.";
+                cout << "You should go to the 5 grade." << endl;
 
             }
             else if (testresult3) {
-                cout << "You should go to the 4 grade.";
+                cout << "You should go to the 4 grade." << endl;
 
             }
             else if (testresult2) {
-                cout << "You should go to the 3 grade.";
+                cout << "You should go to the 3 grade." << endl;
 
             }
             else if (testresult1) {
-                cout << "You should go to the 2 grade.";
+                cout << "You should go to the 2 grade." << endl;
 
             }
             else {
-                cout << "You should go to the 1 grade.";
+                cout << "You should go to the 1 grade." << endl;
 
             }
         }
         if (number == 2) {
-            cout << "This is ";
+         cout << setw(130) << "This is about the main idea of the project." << endl;
+         cout << setw(121) << "They are three different tests."<< endl;
+         cout << setw(129) << "The first one is the knowledge of Matematics." << endl;
+         cout << setw(135) << "The second one is about the English grammar and vocabulary." << endl;
+         cout << setw(160) << "The thirth one is about General knowledge-some of history,chemistry,physics and other subjects in school" << endl;
         }
         if (number == 3) {
-            cout << "credit";
+            cout << setw(130) << "Radomir Aleksandrov: Scrum Trainer: RAAleksandrov21@codingburgas.bg" << endl;
+            cout << setw(130) << "Kaloyan Petrov: BackendDeveloper: KSPetrov22@codingburgas.bg" << endl;
+            cout << setw(130) << "Petko Kovachev: BackendDeveloper: PPKovachev22@codingburgas.bg" << endl;
+            cout << setw(130) << "Asparuh Georgiev: BackendDeveloper: AZGeorgiev22@codingburgas.bg" << endl;
+            cout << setw(130) << "Jasmina Valkova: QA documentation: ZIValkova21@codingburgas.bg" << endl;
+                                          
         }
         if (number == 4) {
             break;
         }
     }
-    cout << "Thank you for participating";
+    cout << setw(120) << "Thank you for participating";
 }
